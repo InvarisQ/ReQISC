@@ -1,0 +1,56 @@
+name: Research task
+description: Propose a technical research task or implementation path.
+title: "research: "
+labels: [research]
+body:
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Which layer does this affect?
+      options:
+        - Mathematical primitive
+        - Compiler pass
+        - Hardware profile
+        - Calibration model
+        - Benchmark
+        - Docs
+        - Governance
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: What technical claim is being made?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: What references or reproducibility material support it?
+    validations:
+      required: true
+  - type: dropdown
+    id: benchmark_claims
+    attributes:
+      label: Does this introduce benchmark claims?
+      options:
+        - "No"
+        - "Yes, with reproducible evidence"
+        - "Unknown"
+    validations:
+      required: true
+  - type: dropdown
+    id: tests
+    attributes:
+      label: Does this require new tests?
+      options:
+        - "Yes"
+        - "No"
+        - "Needs maintainer guidance"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and limitations
+      description: What is explicitly out of scope?

@@ -1,0 +1,11 @@
+[build]
+base = "website"
+publish = "public"
+command = "echo 'Static documentation site: no build step required.'"
+
+[[headers]]
+for = "/*"
+[headers.values]
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "DENY"
+Referrer-Policy = "strict-origin-when-cross-origin"

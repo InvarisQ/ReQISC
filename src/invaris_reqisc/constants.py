@@ -1,0 +1,4 @@
+"""Project constants."""
+
+DEFAULT_NEAR_IDENTITY_THRESHOLD: float = 1e-3
+CANONICAL_REGION_UPPER_BOUND: float = 0.5

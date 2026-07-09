@@ -1,0 +1,9 @@
+name: xy-coupling-example
+coupling:
+  xx: 1.0
+  yy: 1.0
+  zz: 0.0
+native_1q_controls:
+  - rx
+  - rz
+notes: Example XY-like coupling profile for schema and documentation tests only.

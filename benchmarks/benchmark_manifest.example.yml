@@ -1,0 +1,19 @@
+name: example-reqisc-benchmark
+version: 0.1.0
+workload:
+  name: placeholder-two-qubit-workload
+  source: examples only
+  notes: No performance result is claimed by this manifest.
+hardware_profile:
+  name: xy-coupling-example
+  coupling: [1.0, 1.0, 0.0]
+  native_1q_controls: [rx, rz]
+metrics:
+  - two_qubit_gate_count
+  - depth_2q
+  - pulse_duration_estimate
+  - distinct_su4_count
+reproducibility:
+  package_version: 0.1.0
+  random_seed: null
+  environment: unspecified

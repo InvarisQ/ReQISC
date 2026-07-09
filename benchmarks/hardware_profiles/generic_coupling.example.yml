@@ -1,0 +1,10 @@
+name: generic-coupling-example
+coupling:
+  xx: 0.7
+  yy: 0.2
+  zz: 0.1
+native_1q_controls:
+  - rx
+  - ry
+  - rz
+notes: Generic coupling profile for benchmark-manifest examples only.

@@ -1,0 +1,44 @@
+name: Bug report
+description: Report incorrect behavior in an implemented component.
+title: "bug: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Affected layer
+      options:
+        - Mathematical primitive
+        - Compiler pass scaffold
+        - Hardware profile
+        - Calibration model
+        - Benchmark scaffold
+        - Documentation
+        - Governance or infrastructure
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Include commands, inputs, and environment.
+    validations:
+      required: true
+  - type: textarea
+    id: integrity
+    attributes:
+      label: Claim boundary
+      description: Does this affect any benchmark, compiler, calibration, or affiliation claim?

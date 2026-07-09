@@ -1,0 +1,22 @@
+name: Documentation issue
+description: Improve docs, terminology, examples, or public project information.
+title: "docs: "
+labels: [documentation]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Document or section
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: claim_boundary
+    attributes:
+      label: Claim boundary
+      description: Does the change affect implementation status, benchmarks, affiliations, or citations?

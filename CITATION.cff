@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use Invaris Quantum ReQISC in research software, please cite the project software and any external research sources separately."
+title: "Invaris Quantum ReQISC"
+version: "0.1.0"
+date-released: "2026-07-09"
+license: "Apache-2.0"
+repository-code: "https://github.com/OWNER/invaris-quantum-reqisc"
+url: "https://OWNER.github.io/invaris-quantum-reqisc"
+authors:
+  - family-names: "Invaris Quantum Maintainers"
+keywords:
+  - quantum-computing
+  - compiler-infrastructure
+  - reconfigurable-instruction-set
+  - scientific-software
+  - benchmarking

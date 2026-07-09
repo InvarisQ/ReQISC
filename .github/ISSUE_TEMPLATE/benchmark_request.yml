@@ -1,0 +1,37 @@
+name: Benchmark request
+description: Propose a benchmark manifest, metric, fixture, or report format.
+title: "benchmark: "
+labels: [benchmark]
+body:
+  - type: textarea
+    id: workload
+    attributes:
+      label: Workload or manifest
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware profile or assumptions
+    validations:
+      required: true
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Metrics
+    validations:
+      required: true
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: Reproducibility fields
+      description: Version, environment, random seeds, configuration, and provenance.
+    validations:
+      required: true
+  - type: checkboxes
+    id: claims
+    attributes:
+      label: Claim boundary
+      options:
+        - label: This request is for a manifest or method, not an unsupported result claim.
+        - label: Any result claims will include reproducible evidence.
