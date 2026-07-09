@@ -1,9 +1,9 @@
-# Invaris Quantum ReQISC
+ Invaris Quantum ReQISC
 
 Invaris Quantum ReQISC is an open-source research-software workbench for building, testing, and benchmarking reconfigurable quantum instruction-set components across hardware-aware compiler and control workflows.
 
-[![CI](https://github.com/OWNER/invaris-quantum-reqisc/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/invaris-quantum-reqisc/actions/workflows/ci.yml)
-[![Lint](https://github.com/OWNER/invaris-quantum-reqisc/actions/workflows/lint.yml/badge.svg)](https://github.com/OWNER/invaris-quantum-reqisc/actions/workflows/lint.yml)
+http://qisc.invarisquantum.com
+http://invarisquantum.com
 
 > Replace `OWNER` after the public repository is created. The badges point only to workflows included in this repository.
 
